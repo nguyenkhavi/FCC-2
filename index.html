@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FCC: Survey Form</title>
+    <link rel="StyleSheet" href="style.css"/>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+       <div >
+           <label for="name">Name</label>
+           <input id="name" type="text" >
+       </div>
+       <div >
+            <label for="email">Email</label>
+            <input type="text">
+        </div>
+        <div >
+            <label for="age">Age <i>(optional)</i></label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Which option best describes your current role? <i>(Check all that apply)</i></label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Would you recommend freeCodeCamp to a friend?</label>
+            <input type="radio" name="recommend" class="cb" checked> Definitely <br>
+            <input type="radio" name="recommend" class="cb"> Maybe <br>
+            <input type="radio" name="recommend" class="cb"> Not sure <br>
+        </div>
+        <div>
+            <label for="">What is your favorite feature of freeCodeCamp?</label>
+            <input type="checkbox" name="" class="cb"> Front-end Projects<br>
+            <input type="checkbox" name="" class="cb"> Back-end Projects<br>
+            <input type="checkbox" name="" class="cb"> Data Visualization<br>
+            <input type="checkbox" name="" class="cb"> Challenges<br>
+            <input type="checkbox" name="" class="cb"> Open Source Community<br>
+            <input type="checkbox" name="" class="cb"> Gitter help rooms<br>
+            <input type="checkbox" name="" class="cb"> Videos<br>
+            <input type="checkbox" name="" class="cb"> City Meetups <br>
+            <input type="checkbox" name="" class="cb"> Wiki <br>
+            <input type="checkbox" name="" class="cb"> Forum <br>
+            <input type="checkbox" name="" class="cb"> Additional Courses <br>
+        </div>
+        <div >
+            <label for="name">Any comments or suggestions?</label>
+            <input type="text" id="comment">
+        </div>
+        <button id="submit" type="submit">Submit</button>
+        <div class="blank"></div>
+    </form>
+    
+
+</body>
+</html>
